@@ -1,0 +1,28 @@
+.contenedor { 
+    color: white;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.411);
+    margin-top: 100px;
+}
+
+.title {
+    width: 600px;
+    border-left: 3px solid #fff;
+    padding-left: 20px;
+}
+
+.baldepochoclo {
+    width: 140px;
+    height: 140px;
+    animation: move 0.2s alternate ease-in-out infinite;
+}
+
+@keyframes move {
+    0% { transform: rotate(8deg); }
+    100% {transform: rotate(-8deg); }
+}

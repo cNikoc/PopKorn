@@ -1,0 +1,35 @@
+.detailed {
+  transform: scale(82%);
+  margin-top: -35px;
+}
+
+.moviecard {
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+#myMovie {
+  margin-top: 20px;
+  width: 200px;
+  height: 300px;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.fotoTitulo {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.detailed {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 0 30px;
+  background-color: rgba(70, 69, 69, 0.664);
+  color: white;
+}

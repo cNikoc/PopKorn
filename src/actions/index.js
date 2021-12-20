@@ -2,7 +2,7 @@
 /* import dotenv from "dotenv";
 dotenv.config(); */
 const REACT_APP_API_KEY = '3b04fbd1';
-// I know perfectly well that sensitive data like an apikey should be called from an environment file added in gitignore to prevent that data from being uploaded. but I left it this way in order to facilitate the external use of the project
+// I know perfectly well that sensitive data like an apikey should be called from an environment file added in gitignore to prevent sensible data from being uploaded. but I left it this way in order to facilitate the external use of the project
 
 export function addMovieFavorite(payload) {
   return { type: "ADD_MOVIE_FAVORITE", payload };

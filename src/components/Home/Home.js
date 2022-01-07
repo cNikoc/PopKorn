@@ -20,7 +20,7 @@ export default class Home extends Component {
             will be able to access to detailed information about any movie you
             want. You can also fav the movies you like in order to add them as
             your favorite movies, or make your personalized watchlist!
-            <hr/><hr/>
+            <hr/>
             Find me on <a href="https://www.linkedin.com/in/cristian-nicolas-castagnetto-full-stack-dev/" target="_BLANK" rel="nore" className="linkhome">LinkedIn</a> and <a href="https://github.com/cNikoc" target="_BLANK" rel="nore" className="linkhome">GitHub</a>.
           </p>
         </div>

@@ -26,3 +26,8 @@
     0% { transform: rotate(8deg); }
     100% {transform: rotate(-8deg); }
 }
+
+.linkhome, .linkhome:visited {
+    color: #18e;
+    text-decoration: none;
+} 
